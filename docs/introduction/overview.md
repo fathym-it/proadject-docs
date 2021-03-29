@@ -1,10 +1,11 @@
 ---
-## slug: /api
+slug: /
 title: Introduction - Overview
 hide_title: true
 sidebar_label: Overview
 keywords:
     - road trip weather
+    - weather forecast
     - travel forecast
     - road trip weather planner
     - road trip planner weather
@@ -13,6 +14,7 @@ keywords:
     - smart route
     - weather delays
     - road weather
+    - highway weather
     - trip weather
     - weather on my road trip
     - driving weather planner

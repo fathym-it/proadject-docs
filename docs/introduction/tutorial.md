@@ -1,9 +1,10 @@
 ---
-title: Introduction - Overview
+title: Introduction - Tutorial
 hide_title: true
 sidebar_label: Tutorial
 keywords:
     - road trip weather
+    - weather forecast
     - travel forecast
     - road trip weather planner
     - road trip planner weather
@@ -12,6 +13,7 @@ keywords:
     - smart route
     - weather delays
     - road weather
+    - highway weather
     - trip weather
     - weather on my road trip
     - driving weather planner
@@ -30,7 +32,9 @@ Type your Origin city and state. The type-ahead will pop up with matches. Select
 
 ### **Select Destination**
 
-Type your Destination city andstate. The type-ahead will pop up with matches. Select your origin.
+Type your Destination city andstate. The type-ahead will pop up with matches. Select your destination.
+
+![Originanddestination](/img/screenshots/originanddestination.png)
 
 ### **Select Departure Time**
 
@@ -53,6 +57,8 @@ You can leave this as the default and see all 12 variables or choose specific va
 - Elevation
 - Snow Depth
 
+![variables](/img/screenshots/variablesandroutes.png)
+
 ### **Select Forecast Model**
 
 You can leave this as the default and utilize the Fathym Road Temp Forecast or you can choose a different model.
@@ -70,13 +76,34 @@ You can leave this as the default and see 1 route. Or click the toggle on and se
 
 After clicking Search, the route(s) will be displayed on the map. The optimal route will be displayed in blue while secondary routes will be displayed in grey. 
 
+![routes](/img/screenshots/routes.png)
+
 ### **Change Route**
 
 To change the desired route, simply click on the route. Or click the route list in the grey box to the upper right of the map. The selected route will be displayed in blue. 
 
+![changeroutes](/img/screenshots/changeroutes.png)
+
 ### **Clear Route**
 
-To start a new Search by clicking the Clear button. You will need to enter a new Origin and Destination.
+To start a new Search, click the Clear button. You will need to enter a new Origin and Destination.
+
+### **Layers**
+
+You may overlay weather layers on to the map.
+
+- **Radar Reflectivity**: The larger the targets (raindrops, snowflakes, etc.,) the higher the reflectivity.  Raindrops, by virtue of their larger size, have a much higher radar reflectivity than drizzle drops (the tiny drops of water that appear to be more of a mist than rain).
+![radarreflectivity](/img/screenshots/layersradarreflectivity.png)
+- **Cloud Cover**: The fraction of the sky obscured by clouds when observed from a particular location.
+![cloudcover](/img/screenshots/layersforecastcloudcover.png)
+- **Precipitation**: Any product of the condensation of atmospheric water vapor that falls under gravitational pull from clouds. The main forms of precipitation include drizzling, rain, sleet, snow, ice pellets, graupel and hail.
+![precipitation](/img/screenshots/layersforecastprecipitation.png)
+- **Temperature**: Expressions of hot and cold.
+![temperature](/img/screenshots/layersforecasttemperature.png)
+- **Visibility**: Measure of the distance at which an object or light can be clearly discerned.
+![visibility](/img/screenshots/layersforecastvisibility.png)
+- **Wind**: The direction the wind is coming from.
+![wind](/img/screenshots/layersforecastwind.png)
 
 ### **Forecast Details**
 
@@ -107,3 +134,5 @@ You may view the data in either Metric or English systems of measurement.
 You may download the data as JSON. 
 
 Click the X in the upper-right hand corner to close the modal. 
+
+![forecastdetailsmodal](/img/screenshots/forecastdetailsmodal.png)
