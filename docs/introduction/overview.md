@@ -4,25 +4,22 @@ title: Introduction - Overview
 hide_title: true
 sidebar_label: Overview
 keywords:
-    - iot
-    - azure
-    - connect a device
-    - iot hub
-hide_table_of_contents: true
+    - road trip weather
+    - weather forecast
+    - travel forecast
+    - road trip weather planner
+    - road trip planner weather
+    - driving weather
+    - weather along route
+    - smart route
+    - weather delays
+    - road weather
+    - highway weather
+    - trip weather
+    - weather on my road trip
+    - driving weather planner
 ---
 
-# Welcome to Fathym IoT Ensemble
+# **Welcome to Fathym pROADject**
 
-Fathym IoT Ensemble is a platform focused on helping you to connect devices, understand data and scale IoT applications.
-
-Managing the learning path, usage and growth of cloud-native IoT development strategies can be a daunting challenge. Use IoT Ensemble to reliably deliver IoT applications across hybrid-clouds. [Get started](https://www.iot-ensemble.com/dashboard) today.
-
-![IoT Ensemble Diagram](/img/iot-ensemble-diagram.png)
-
-## Connect, Understand, Scale
-
-When getting started with a new cloud-native IoT solution, you’re not only working towards connecting a device, but also on how to process and store its data in order to perform tasks such as visualization, machine learning, and application development. This requires learning a number of cloud-native technologies before being able to deliver a solution.
-
-IoT Ensemble operates as a virtual development team that automates best practices for IoT application delivery.  In order to help you focus on building applications and creating value, we built the platform to augment your team’s skills and do the heavy lifting.
-
-[Using the platform](https://www.iot-ensemble.com/dashboard) radically reduces the time and work involved in getting devices connected, understanding their data, and delivering end-to-end customer driven IoT applications.
+Fathym pROADject is an application that utilizes the Fathym Habistack API, combining the world’s best weather forecasts with statistics-based, machine-learning techniques to tackle large road weather datasets.  pROADject visualizes the road weather data, allowing you to understand the best route to get you to your destination.  

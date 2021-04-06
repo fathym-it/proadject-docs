@@ -1,14 +1,14 @@
 const path = require('path');
 
 module.exports = {
-  title: 'Fathym IoT Ensemble Beta',
-  tagline: 'Experience IoT in minutes | No credit card required',
-  url: 'https://www.iot-ensemble.com',
+  title: 'Fathym pROADject',
+  tagline: 'pROADject your drive with weather based routing | No credit card required',
+  url: 'https://www.proadject.com',
   baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'iot-ensemble', // Usually your GitHub org/user name.
-  projectName: 'public-web-docs', // Usually your repo name.
+  organizationName: 'fathym-it', // Usually your GitHub org/user name.
+  projectName: 'proadject-docs', // Usually your repo name.
   themeConfig: {
     gtag: {
       trackingID: 'G-NEWEXH7W8C',
@@ -24,20 +24,20 @@ module.exports = {
       disableSwitch: true,
     },
     navbar: {
-      title: 'IoT Ensemble Beta',
+      title: 'pROADject',
       logo: {
-        alt: 'IoT Ensemble',
+        alt: 'pROADject',
         src: 'img/Fathym-logo-white-01.png',
       },
       items: [
         {
-          href: 'https://www.iot-ensemble.com/',
+          href: 'https://www.proadject.com/',
           label: 'Home',
           position: 'left',
           target: '_top',
         },
         {
-          href: 'https://www.iot-ensemble.com/pricing',
+          href: 'https://www.proadject.com/pricing',
           label: 'Pricing',
           position: 'right',
           target: '_top',
@@ -48,13 +48,13 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://www.iot-ensemble.com/blog',
+          href: 'https://www.proadject.com/blog',
           label: 'Blog',
           position: 'right',
           target: '_top',
         },
         {
-          href: 'https://www.iot-ensemble.com/dashboard',
+          href: 'https://www.proadject.com/dashboard',
           label: 'Sign In',
           position: 'right',
           target: '_top',
@@ -69,11 +69,11 @@ module.exports = {
           items: [
             {
               label: 'Getting Started',
-              to: 'https://www.iot-ensemble.com/dashboard',
+              to: 'https://www.proadject.com/dashboard',
             },
             {
               label: 'Pricing',
-              to: 'https://www.iot-ensemble.com/pricing',
+              to: 'https://www.proadject.com/pricing',
             },
             {
               label: 'Support',
@@ -86,15 +86,15 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/iot-ensemble',
+              href: 'https://stackoverflow.com/questions/tagged/proadject',
             },
             //{
             //  label: 'Discord',
-            //  href: 'https://discordapp.com/invite/iot-ensemble',
+            //  href: 'https://discordapp.com/invite/proadject',
             //},
             {
               label: 'Twitter',
-              href: 'https://twitter.com/iotensemble',
+              href: 'https://twitter.com/proadject',
             },
           ],
         },
@@ -119,7 +119,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
           // The iot-ensemble website repo
-          // editUrl: 'https://github.com/iot-ensemble/public-web-docs/edit/master/website/',
+          // editUrl: 'https://github.com/fathym-it/proadject-docs/edit/master/website/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
